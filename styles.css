@@ -11,7 +11,7 @@
 .body{
     padding: 0 20rem;
     background-color: #D9D9D9;
-    text-align: center;
+    /* text-align: center; */
     height: 100%;
     width: 100%;
     position: fixed;
@@ -23,6 +23,17 @@
 }
 .heading{
     font-size: 50px;
+    text-align: center;
+}
+.CA{
+    text-align: center;
+}
+.button1{
+    display: flex;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
 }
 .signup-background{
     background-image: linear-gradient(rgba(135, 140, 160, 0.6),rgba(135, 140, 160, 0.6)),url(images/buffet.jpg);
@@ -32,15 +43,19 @@
     height: 76vh;
     border-radius: 30px;
     margin-top: 1.5rem;
-    display: flex;
-    justify-content: center;
-    align-self: center;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-self: center; */
     position:relative;
     padding-top: 25px;  
+    padding: 25px 8rem 0px;
 }
 .element{
     margin: 1rem 0;
     width: 100%;
+}
+.element label{
+    font-weight: 600;
 }
 .element input{
     outline: 2px solid transparent;
@@ -95,13 +110,25 @@
     height: 52px;
     border-radius: 95px;
 }
+.categories-body{
+    width: 100%;
+}
 .navbar{
     margin:auto;
-    padding: 20px 0;
+    padding: 20px 4rem;
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
     background-color: #A00C0C;
+    justify-content: space-between;
+    align-items: center;
 }
-ul li{
+.navlinks{
+    display: flex;
+    gap: 30px;
     list-style: none;
+    align-items: center;
+}
+.navlogo{
+    display: flex;
+    align-items: center;
 }
