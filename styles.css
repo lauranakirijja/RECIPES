@@ -186,11 +186,35 @@ a{
     font-style: italic;
     text-decoration: underline;
 }
-.recipe-heading{
+.recipe-heading {
     padding: 20px 6.5rem 0px;
+}
+.info{
+    /* padding: 5px 6.5rem 0px; */
+    /* justify-content: space-between; */
+}
+.heart{
+    padding-left: 170px;
+}
+.image-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly ;
+    padding-top: 10px;
+    padding-left: 2.5rem;
+}
+.recipe-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly ;
+    padding-top: 10px;
+    padding-left: 2.5rem;
 }
 .recipe-image{
     width: 250px;
     height: 300px;
-    padding: 20px 6.5rem;
+    justify-content: space-between;
+}
+.back{
+    color: #fff;
 }
